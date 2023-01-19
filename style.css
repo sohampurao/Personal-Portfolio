@@ -1,9 +1,6 @@
 /* font families */
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Nunito:wght@400;600;700&family=Playfair+Display:wght@400;700&family=Raleway:wght@500&family=Roboto:wght@500&display=swap');
 
-/* for brand name | font-family: 'Comfortaa', cursive;
-for nav links | font-family: 'Raleway', sans-serif; */
-
 :root {
     /* colors */
     --nav-line-clr: #25282B;
@@ -175,3 +172,17 @@ a {
 }
 
 .container {}
+
+/* navigation bar */
+
+.primary-header {}
+
+.person-name {
+    font-family: 'Comfortaa', cursive;
+}
+
+.primary-navigation {}
+
+.nav-list {
+    font-family: 'Raleway', sans-serif;
+}
