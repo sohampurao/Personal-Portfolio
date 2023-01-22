@@ -18,8 +18,11 @@
     /* font sizes */
     --fs-normal: 1.125rem;
     --fs-h1: 4rem;
+    /*64px*/
     --fs-h2: 3rem;
-    --fs-h3: 1.25rem;
+    /*48px*/
+    --fs-h3: 2.5rem;
+    /*40px*/
 
     /* font weights */
     --fw-regular: 400;
@@ -224,6 +227,11 @@ a {
     }
 }
 
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
 /* NAVIGATION BAR */
 
 .primary-header {}
@@ -246,3 +254,20 @@ a {
     top: 0;
     right: 0;
 }
+
+/* PROJECT DISPLAY */
+
+.project-container {
+    background-color: var(--grey-clr);
+    overflow: hidden;
+    height: 524px;
+    width: 992px;
+}
+
+.project-detials {}
+
+.project-title {}
+
+.project-discription {}
+
+.project-image-container {}

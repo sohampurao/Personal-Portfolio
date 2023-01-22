@@ -9,11 +9,16 @@
       href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Nunito:wght@400;600;700&family=Playfair+Display:wght@400;700&family=Raleway:wght@500&family=Roboto:wght@500&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.css"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>Personal Portfolio</title>
   </head>
   <body>
+    <!-- ================ NAVIGATION BAR START ================ -->
     <header class="primary-header">
       <div class="contianer">
         <a href="#" class="person-name | fw-bold">Soham Purao</a>
@@ -30,14 +35,20 @@
         </nav>
       </div>
     </header>
+    <!-- ================ NAVIGATION BAR END ================ -->
 
     <main>
+      <!-- ================ HERO SECTION START ================ -->
       <section>
         <div class="container-fluid">
           <div class="even-columns">
             <div>
-              <div class="text-primary fw-bold text-uppercase">Web Developer</div>
-              <h1 class="fs-h1 fw-bold title-text ff-heading">Hello, my name is Soham Purao</h1>
+              <div class="text-primary fw-bold text-uppercase">
+                Web Developer
+              </div>
+              <h1 class="fs-h1 fw-bold title-text ff-heading">
+                Hello, my name is Soham Purao
+              </h1>
               <div class="fs-regular subtitle-text">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 Perferendis similique commodi alias consectetur optio quia enim
@@ -49,13 +60,63 @@
               </div>
             </div>
             <div>
-              <img src="images/hero-image.png" height="400" width="470" alt="hero image" class="hero-image">
+              <img
+                src="images/hero-image.png"
+                height="400"
+                width="470"
+                alt="hero image"
+                class="hero-image"
+              />
             </div>
           </div>
         </div>
       </section>
-  <main>
+      <!-- ================ HERO SECTION END ================ -->
 
+      <!-- ================ PROJECT DISPLAY START ================ -->
+      <section>
+        <div class="container">
+          <div class="fs-h2 fw-bold title-text ff-heading text-center">
+            Projects
+          </div>
+
+          <main>
+            <div class="project-container">
+              <section>
+                <div class="even-columns">
+                  <div class="project-detials">
+                    <div
+                      class="project-title | fs-h3 ff-heading fw-bold title-text"
+                    >
+                      Project Name
+                    </div>
+                    <div
+                      class="project-discription | subtitle-text fs-regular fw-regular"
+                    >
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Eum, necessitatibus at illo et omnis illum saepe dolores
+                      quibusdam. Dolores rerum modi natus repellat fugit autem
+                      voluptatem magnam totam, dolore consectetur.
+                    </div>
+                    <button type="button" role="button">
+                      <a href="#">View Project</a>
+                    </button>
+                  </div>
+                  <div class="project-image-contianer">
+                    <img
+                      src="images/project.jpg"
+                      alt="Project image"
+                      class="img-fluid"
+                    />
+                  </div>
+                </div>
+              </section>
+            </div>
+          </main>
+        </div>
+      </section>
+      <!-- ================ PROJECT DISPLAY END ================ -->
+    </main>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
