@@ -110,7 +110,7 @@ a {
     text-decoration: none;
 }
 
-/* utility classes */
+/* UTILITY CLASSES */
 
 /* background colors */
 .bg-primary {
@@ -123,14 +123,6 @@ a {
 
 .bg-grey {
     background-color: var(--grey-clr);
-}
-
-.title-text {
-    color: var(--high-emphasis-clr);
-}
-
-.subtitle-text {
-    color: var(--low-emphasis-clr);
 }
 
 .bg-white {
@@ -171,9 +163,68 @@ a {
     font-weight: var(--fw-bold);
 }
 
-.container {}
+/* font colors */
+.text-primary {
+    color: var(--primary-clr);
+}
 
-/* navigation bar */
+.title-text {
+    color: var(--high-emphasis-clr);
+}
+
+.subtitle-text {
+    color: var(--low-emphasis-clr);
+}
+
+/* font families */
+.ff-heading {
+    font-family: var(--ff-heading);
+}
+
+/* text properties */
+.text-center {
+    text-align: center;
+}
+
+.text-capitalize {
+    text-transform: capitalize;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+/* other */
+
+.container {
+    --padding: 0px;
+    --max-width: 992px;
+
+    padding: var(--padding);
+    outline: 1px solid red;
+    width: min(var(--max-width), 100% - (var(--padding) * 2));
+    margin-inline: auto;
+}
+
+.container-fulid {
+    width: 100%;
+    padding: 0%;
+    margin-inline: auto;
+}
+
+.even-columns {
+    display: grid;
+    gap: 1rem;
+}
+
+@media (min-width: 50em) {
+    .even-columns {
+        grid-auto-flow: column;
+        grid-auto-columns: 1fr;
+    }
+}
+
+/* NAVIGATION BAR */
 
 .primary-header {}
 
@@ -185,4 +236,13 @@ a {
 
 .nav-list {
     font-family: 'Raleway', sans-serif;
+}
+
+/* HERO SECTION */
+.hero-social-buttons {}
+
+.hero-image {
+    position: absolute;
+    top: 0;
+    right: 0;
 }
